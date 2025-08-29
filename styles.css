@@ -170,20 +170,23 @@ body {
 }
 
 /* Add to cart button */
-.product__info::after {
-  content: "ADD TO CART";
+.add-to-cart{
   display: block;
-  text-align: center;
   margin-top: 25px;
-  background: #ff5252;
+  width: 100%;
+  background: var(--accent);
+  border: none;
   color: #fff;
   font-weight: bold;
-  padding: 12px 0;
-  border-radius: 5px;
+  font-size: 16px;
+  padding: 14px 0;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background .3s;
 }
 
-.product__info::after:hover {
+.add-to-cart:hover{
   background: #ff1744;
 }
+
+
